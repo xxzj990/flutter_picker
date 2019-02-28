@@ -338,10 +338,10 @@ class PickerWidgetState<T> extends State<_PickerWidget> {
             padding: picker.columnPadding,
             height: picker.height,
             decoration: BoxDecoration(
-              border: picker.hideHeader
+              /*border: picker.hideHeader
                   ? null
                   : new Border(
-                      top: BorderSide(color: theme.dividerColor, width: 0.5)),
+                      top: BorderSide(color: theme.dividerColor, width: 0.5)),*/
               color: picker.containerColor == null
                   ? theme.dialogBackgroundColor
                   : picker.containerColor,
